@@ -1,0 +1,262 @@
+body{
+    background-color: #DCF3FFBF;
+    margin: 0;
+    padding: 0;
+    
+}
+.get_in_touch_text{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.get_in_touch{
+    color: #0369a1;
+}
+.connect_text{
+    color: #475569;
+    margin-top: 10px;
+}
+.email-div{
+    margin-left: 20px;
+    
+    padding-left: 25px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.email-card{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.email-logo{
+    background-color: rgb(4, 191, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 25px;
+    
+
+}
+.email-text{
+    padding-left: 35px;
+}
+.send_email_btn{
+    background-color: #0369a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    border-radius: 18px;
+    margin-top: 15px;
+
+}
+.github_card{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+
+}
+.view_profile_btn{
+    background-color: #0369a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    border-radius: 18px;
+    margin-top: 15px;
+    
+}
+.github_logo{
+    background: rgb(2, 187, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.instagram_card{
+    background: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    
+}
+.instagram_logo{
+    background: rgb(2, 190, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.follow_btn{
+    background-color: #0369a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    border-radius: 18px;
+    margin-top: 15px;
+}
+.whatsapp_card{
+    background: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+.whatsapp_logo{
+    
+    background: rgb(2, 190, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.chat_now_btn{
+    background-color: #0369a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    border-radius: 18px;
+    margin-top: 15px;
+}
+.linkedin_card{
+    background: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+
+}
+.linkedin_logo{
+        background: rgb(2, 190, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.connect_btn{
+    background-color: #0369a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    border-radius: 18px;
+    margin-top: 15px;
+}
+
+.collaboration_btn{
+    background: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 20px;
+    
+
+}
+.lets_collaborate_btn{
+    background: #0369a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    
+}
+.back_home_btn{
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: solid 3px #0369a1;
+    border-radius: 20px;
+
+    
+
+}
+.back_home_text{    
+    text-decoration: none;
+    color: #0369a1;
+
+
+}
+.two_div{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.text{
+    margin-top: 10px;
+}
+.social_media{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+    
+
+}
+
+@media(max-width:1700px){
+    .social_media{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media(max-width: 1500px){
+    .social_media{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(max-width: 1000px){
+    .social_media{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width: 500px){
+    .social_media{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

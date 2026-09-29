@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+body{
+    background-color: red;
+
+    font-size: 15pxpx;
+    line-height: 25px;
+    color: #405467;
+    height: 1000px;
+    
+
+}
+.card1{
+    padding-bottom: 100px;
+}
+.container{
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 25px;
+    vertical-align: top;
+    
+
+    
+}
+@media(max-width: 500px){
+    .container{
+        grid-template-columns: repeat( 1, 1fr);
+    }
+}
+
+
+    
+
+
+
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: #1685c5;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 50px;
+
+
+
+
+}
+.who-i-am-text{
+    color: #1876b5;
+    font-size: 1pxpx;
+    margin-bottom: 18px;
+
+
+}
+.more-about-me-text{
+    font-size: 18px;
+    margin-bottom: 18px;
+
+
+}
+strong{
+    color: #263746;
+}
+.highlight1{
+    background-color: rgb(190, 220, 242, 0.75);
+    border-left: 8px solid #1685c5;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    
+
+}
+/* RESPONSIVE DESIGN*/
+@media(max-width:600){
+    body{
+        padding: 20px 12px;
+    }
+
+    .card{
+        width: 55px;
+        height: 55px;
+        font-size: 24px;
+    }
+    
+        
+    
+}
+.card1{
+    background-color: #FFFFFF8C;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+
+} 
+.card2{
+    background-color: rgba(255, 255, 255, 0.55);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    
+}
+.my-goal-text{
+    color: #1876b5;
+    margin-bottom: 18px;
+}
+.highlight2{
+    background-color: rgb(190, 220, 242, 0.75);
+    border-left: 8px solid #1685c5;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.more-about-my-goal{
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+.about-me-text{
+    margin-top: 50px;
+    color: #1876b5;
+}
